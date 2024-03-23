@@ -1,0 +1,10 @@
+$ terraform init -> descarga la version del provider, crea archivo de estado
+$ terraform init --upgrade 
+$ terraform plan -> valid las creaciones basado en el archivo main
+$ terraform apply -auto-approve
+$ terraform destroy
+
+==============================================
+#los workspace de terraform se utilizan para tener varios ambientes
+terraform workspace list -> muestra las listas de los workspace de terraform
+terraform workspace new [nombre] -> crea un nuevo workspace para terrraform
